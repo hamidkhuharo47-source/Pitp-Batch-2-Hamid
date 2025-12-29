@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(182, 135, 135);
+}
+
+header {
+    background:linear-gradient(darkgreen, black)
+}
+
+.content {
+    margin-right: 870px;    
+}
+
+.hero {
+    margin-right: 800px;
+
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.contact-info {
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+
+    }
+
+    .contact-info {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+
+
+    
+}

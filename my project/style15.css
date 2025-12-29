@@ -1,0 +1,75 @@
+body {
+    background-color: cadetblue;
+    margin: 0px;
+    
+
+}
+
+h1 {
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 28pt;
+    color: cadetblue;
+    margin: 0;
+    padding: 20px;
+
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 26pt;
+    
+}
+
+ p {
+    color: black;
+    font-size: 16pt;
+
+}
+
+ul li {
+    font-size: 16pt;
+
+
+
+}
+    
+div.nav {
+    overflow: hidden;
+    background-color: aliceblue;
+
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: cadetblue;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+
+}
+
+.nav a:hover {
+    background-color: cadetblue;
+    color: aliceblue;
+
+
+}
+
+table {
+    width: 40%;
+    border: 2px;
+    padding: 5px;
+    font-size: 15pt;
+
+}
+
+input {
+    font-size: 16pt;
+    
+}
+
+label {
+    font-size: 16pt;
+}

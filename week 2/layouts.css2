@@ -1,0 +1,83 @@
+/* General reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr{
+
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+
+}
+.demo-section {
+    background-color: 40px;
+    padding: 20px;
+    border-radius: box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.resize-note{
+    margin: top 10px;
+}
+
+.flex-container {
+    display: flex;
+    border: 2px solid #333;
+    min-width: 100px;
+    margin-top: 15px;
+}
+
+.navbar{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.card-wrapper{
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

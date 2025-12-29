@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+
+
+}
+
+#my-button{
+    border-radius: 10px;
+    background-color: rgb(178, 178, 230);
+    padding: 20px 200px;
+    margin: 50px;
+    position:relative;
+    text-align: center;
+    margin-bottom: 20px;
+    
+
+}  
+
+
+
+
+#my-button:hover{
+    background-color: rgb(185, 185, 192);
+
+
+}
+
+
+
+
+
+
+
+

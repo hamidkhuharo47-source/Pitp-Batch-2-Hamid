@@ -1,0 +1,80 @@
+.static-box{
+background-color: lightcoral;    
+color:beige;
+padding: 20px;
+border: 2px dotted black;
+/* even if you set these, they won't move the box */
+position: static;
+}
+
+.relative-box{
+background-color: lightblue;
+color:oldlace;
+padding: 20px;
+border: 2px solid blue;
+
+position: relative;
+/* move 30px down from its original top edge and 20px right*/
+}
+
+.normal-box{
+background-color: lightpink;
+padding: 20px;
+border: 2px solid purple; 
+/* this box does not move up to fill the relative box's original spot */
+}
+
+.parent-relative{
+background-color: lightgreen;
+padding: 50px;
+border: 30px solid green;
+height: 200px;
+/* "1. this makes it positioning context for its absolute child" */
+position: relative;
+}
+
+.absolute-box{
+background-color:blueviolet;
+padding: 20px;
+border: 2px solid indigo;
+height: 200px;
+width: 100px;
+position: corner;
+text-align: center;
+justifu-items: center;
+align-items: center;
+}
+.absolute-box2{
+background-color:darkorange;
+padding: 20px;
+border: 2px solid orangered;
+height: 100px;
+width: 100px;
+text-align: center;
+position: relative;
+top: 5px;
+left: 20px;
+}
+.absolute-box3{
+background-color: bisque;
+padding: 20px;
+border: 2px solid sienna;
+height: 100px;
+width: 100px;
+position: absolute;
+top: 5px;
+left: 0px;
+text-align: center;
+}
+.fixed{
+background-color: darkcyan;
+color:black;
+padding: 20px;
+width: 100px;
+text-align: center;
+
+position: fixed;
+bottom: 0px;
+right: 1px;
+z-index: inherit;
+}
