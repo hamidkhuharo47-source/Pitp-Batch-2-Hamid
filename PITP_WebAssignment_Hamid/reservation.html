@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HM Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="home">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img2/logo2.avif" alt="Restaurant Logo">
+                <span>Tasty Foods</span>
+            </div>
+            
+            <ul class="nav-items nav-links">
+                <div class="items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">reservation</a></li>
+                </div>
+            </ul>
+        </nav>
+        <section class="main">
+            <h2 class="heading1">Welcome to HM Restaurant</h2>
+            <h1 class="heading2">Enjoy our<br> Delicious Food</h1>
+            <a href="menu.html" class="btn">Menu</a>
+        </section>
+    </header>
+    <section>
+       <div class="map-container">
+        <h2>Restaurant is<br>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.8348796288446!2d68.26519220618248!3d25.410337191725166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c79647c5705db%3A0x637594c5cf5bac0!2sB.M%20Restaurant!5e0!3m2!1sen!2s!4v1764763198694!5m2!1sen!2s" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> 
+
+        <!---order-->
+
+    <div class="order" id="order">
+            <h2> Order <span>Now</span></h2>
+
+     <div class="order-main">
+            <img src="img/table pic.jfif" alt="">
+
+        <form action="#" onsubmit="submit_function()">
+            <div class="input">
+                <p>Your Name:</p>
+                <input type="text" placeholder="Your Name"required>
+            </div>
+            <div class="input">
+                <p>Your Email:</p>
+                <input type="text" placeholder="Your Email"required>
+            </div>
+             <div class="input">
+                <p>Your Number:</p>
+                <input type="number" placeholder="Your Number"required>
+            </div>
+            <div class="input">
+                <p>Your Order:</p>
+                <input type="text" placeholder="Your Order"required>
+            </div>
+            <div class="input">
+                <p>Quantity of Items:</p>
+                <input type="number" placeholder="Item Quantity "required>
+            </div>
+            <div class="input">
+                <p>Your Location:</p>
+                <input type="text" placeholder="Your Location"required>
+            </div>
+            <button onclick="submit_function" class="order-btn">Order Now</button>
+        </form>
+
+     </div>
+
+    </div>
+    </section>
+    <footer>
+        <div class="footer" id="footer">
+
+            <div class="row">
+            <div class="col">
+            <h2>Contact</h2>
+            <p>No: 03433003777</p>
+            <p>No: 04198803777</p>
+            <p>hamidkhuharo59@gmail.com</p>
+            <p>hamidkhuharo44@gmail.com</p>
+            </div>
+            <div class="col">
+           <h2>Quick Links</h2>
+           <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">reservation</a></li>
+            </ul>
+            </div>
+        </div>
+         </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
